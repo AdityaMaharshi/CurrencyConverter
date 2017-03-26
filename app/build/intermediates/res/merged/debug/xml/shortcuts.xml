@@ -1,0 +1,32 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+      <shortcut
+        android:shortcutId="BasicConverter"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher"
+        android:shortcutShortLabel="@string/Shortcut1"
+        android:shortcutLongLabel="@string/Shortcut1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.aditya.currencyconverter"
+            android:targetClass="com.example.aditya.currencyconverter.MainActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+         here. The last intent in the list determines what the user sees when
+         they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+      </shortcut> <!-- Specify more shortcuts here. -->
+    <shortcut
+        android:shortcutId="MultiCurrencyConverter"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher"
+        android:shortcutShortLabel="@string/Shortcut2"
+        android:shortcutLongLabel="@string/Shortcut2">
+            <intent
+        android:action="android.intent.action.VIEW"
+        android:targetPackage="com.example.aditya.currencyconverter"
+        android:targetClass="com.example.aditya.currencyconverter.Main2Activity" />
+            <!-- If your shortcut is associated with multiple intents, include them
+         here. The last intent in the list determines what the user sees when
+         they launch this shortcut. -->
+            <categories android:name="android.shortcut.conversation" />
+          </shortcut>
+    </shortcuts>

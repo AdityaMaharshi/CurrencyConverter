@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/C:\\Users\\snaas\\AndroidStudioProjects\\CurrencyConverter\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/C:\\Users\\snaas\\.android\\build-cache\\5b5a8e743e86d64f06c88cda237d3032e162360a\\output\\res\\layout-v11\\notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/C:\\Users\\snaas\\AndroidStudioProjects\\CurrencyConverter\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/C:\\Users\\snaas\\.android\\build-cache\\5b5a8e743e86d64f06c88cda237d3032e162360a\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/C:\\Users\\snaas\\AndroidStudioProjects\\CurrencyConverter\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/C:\\Users\\snaas\\.android\\build-cache\\5b5a8e743e86d64f06c88cda237d3032e162360a\\output\\res\\layout-v11\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/aditya/.android/build-cache/384fb584d820a35f0a45ae510625ebe99617ecd6/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
+        "source": "/Users/aditya/.android/build-cache/384fb584d820a35f0a45ae510625ebe99617ecd6/output/res/layout-v11/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/C:\\Users\\snaas\\AndroidStudioProjects\\CurrencyConverter\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/C:\\Users\\snaas\\.android\\build-cache\\5b5a8e743e86d64f06c88cda237d3032e162360a\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
+        "source": "/Users/aditya/.android/build-cache/384fb584d820a35f0a45ae510625ebe99617ecd6/output/res/layout-v11/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/C:\\Users\\snaas\\AndroidStudioProjects\\CurrencyConverter\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/C:\\Users\\snaas\\.android\\build-cache\\5b5a8e743e86d64f06c88cda237d3032e162360a\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
+        "source": "/Users/aditya/.android/build-cache/384fb584d820a35f0a45ae510625ebe99617ecd6/output/res/layout-v11/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
+        "source": "/Users/aditya/.android/build-cache/384fb584d820a35f0a45ae510625ebe99617ecd6/output/res/layout-v11/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/Users/aditya/.android/build-cache/384fb584d820a35f0a45ae510625ebe99617ecd6/output/res/layout-v11/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/C:\\Users\\snaas\\AndroidStudioProjects\\CurrencyConverter\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/C:\\Users\\snaas\\.android\\build-cache\\5b5a8e743e86d64f06c88cda237d3032e162360a\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+    }
+]
