@@ -1,29 +1,5 @@
 [
     {
-        "outputFile": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/C:\\Users\\snaas\\AndroidStudioProjects\\CurrencyConverter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 66,
-                    "endOffset": 117
-                },
-                "from": {
-                    "file": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/C:\\Users\\snaas\\.android\\build-cache\\5b5a8e743e86d64f06c88cda237d3032e162360a\\output\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 66,
-                        "endOffset": 117
-                    }
-                }
-            }
-        ]
-    },
-    {
         "outputFile": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
         "map": [
             {

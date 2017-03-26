@@ -1,7 +1,0 @@
-#Fri Mar 24 03:03:57 CDT 2017
-base.0=C\:\\Users\\snaas\\AndroidStudioProjects\\CurrencyConverter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_515f05213725bccbd1784c12bb5c677978dc619a
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\Users\\snaas\\AndroidStudioProjects\\CurrencyConverter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_3225404de2ec3f42442475a9ec1aca3766789a3e\\classes.dex
-base.1=C\:\\Users\\snaas\\AndroidStudioProjects\\CurrencyConverter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_3225404de2ec3f42442475a9ec1aca3766789a3e
-file.0=C\:\\Users\\snaas\\AndroidStudioProjects\\CurrencyConverter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_515f05213725bccbd1784c12bb5c677978dc619a\\classes.dex

@@ -4,15 +4,7 @@
         "source": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/C:\\Users\\snaas\\AndroidStudioProjects\\CurrencyConverter\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
-        "source": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/C:\\Users\\snaas\\AndroidStudioProjects\\CurrencyConverter\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
         "source": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/C:\\Users\\snaas\\AndroidStudioProjects\\CurrencyConverter\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
-        "source": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/C:\\Users\\snaas\\AndroidStudioProjects\\CurrencyConverter\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     }
 ]
