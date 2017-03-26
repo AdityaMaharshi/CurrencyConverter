@@ -1,4 +1,4 @@
-#Sun Mar 26 16:14:39 CDT 2017
+#Sun Mar 26 16:33:28 CDT 2017
 base.0=/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_12ec62e360047ff29f73b758b4d9a1644254bbb8
 renamed.1=classes.dex
 renamed.0=classes2.dex
