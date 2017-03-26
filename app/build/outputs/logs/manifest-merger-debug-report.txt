@@ -16,17 +16,17 @@ ADDED from /Users/aditya/AndroidStudioProjects/CurrencyConverter/app/src/main/An
 application
 ADDED from /Users/aditya/AndroidStudioProjects/CurrencyConverter/app/src/main/AndroidManifest.xml:5:5-22:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /Users/aditya/.android/build-cache/4938456414f6eebb0bdd8d9aa96786d08505c2b7/output/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:25.2.0] /Users/aditya/.android/build-cache/cb838bfc8fe07da3d3264cd258c273d6bdb4ad02/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/aditya/.android/build-cache/384fb584d820a35f0a45ae510625ebe99617ecd6/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/aditya/.android/build-cache/5e0fe5fc3af4c77496bd24015abd1e5998329c2a/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/aditya/.android/build-cache/eafbb261c305a35d464f9c1aeea86953f64b6bbc/output/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:transition:25.2.0] /Users/aditya/.android/build-cache/065f65a2c4a76acc1734037c01a5e080ef25d43b/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:25.2.0] /Users/aditya/.android/build-cache/78419e5cda735238f9f017b94c91c6e565995bb9/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] /Users/aditya/.android/build-cache/c96727f85a1de9fa50900c1c377681a0dcfdb7bf/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] /Users/aditya/.android/build-cache/48b6cddd4fc954073a48078ea6fedc823bf9ee26/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] /Users/aditya/.android/build-cache/109e8a7852d5d11e8a1c3b37810b693c002ed533/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] /Users/aditya/.android/build-cache/1bbd020a1fa6cb1a7e39b876df64f6050a8dd41a/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] /Users/aditya/.android/build-cache/ba75dc6a0a8e422ccd30bda9670f257a17b738bb/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:design:25.2.0] /Users/aditya/.android/build-cache/f65cbe4320c4e0df26f7ea9247f6cbb28737abf3/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/aditya/.android/build-cache/54971105b365ac01d55c3145072bf45452f732eb/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/aditya/.android/build-cache/b65f2eede40f7872d81e451fbf0fbd950c22d4e9/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/aditya/.android/build-cache/3f037b067a2e150788be10bc25437c42bb501c3c/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.2.0] /Users/aditya/.android/build-cache/9d3ca71b7e6a3c8f5926b3358d963e94cf7a3410/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /Users/aditya/.android/build-cache/a41f10b704d5e9d7e1ece3a6234817c5fc6f151d/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/aditya/.android/build-cache/4d3fcd526ee3786a6517686c553a642cf0626e23/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/aditya/.android/build-cache/b4b424e75dd7aab4d7d08e2398b037fad64b8056/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/aditya/.android/build-cache/1001d1085e80c624d26a56ff667acbcc11a07f36/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/aditya/.android/build-cache/9703bde45ef3a9ad46509853d8dcc71ac7e3be2f/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /Users/aditya/.android/build-cache/3e960e908d348514afcd3b125ea6c6356baedc62/output/AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from /Users/aditya/AndroidStudioProjects/CurrencyConverter/app/src/main/AndroidManifest.xml:8:9-41
 	android:supportsRtl
@@ -66,20 +66,20 @@ ADDED from /Users/aditya/AndroidStudioProjects/CurrencyConverter/app/src/main/An
 uses-sdk
 INJECTED from /Users/aditya/AndroidStudioProjects/CurrencyConverter/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /Users/aditya/.android/build-cache/4938456414f6eebb0bdd8d9aa96786d08505c2b7/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:25.2.0] /Users/aditya/.android/build-cache/cb838bfc8fe07da3d3264cd258c273d6bdb4ad02/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/aditya/.android/build-cache/384fb584d820a35f0a45ae510625ebe99617ecd6/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/aditya/.android/build-cache/5e0fe5fc3af4c77496bd24015abd1e5998329c2a/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/aditya/.android/build-cache/eafbb261c305a35d464f9c1aeea86953f64b6bbc/output/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:25.2.0] /Users/aditya/.android/build-cache/be02e5562d53e40cfa200e147d9cdac4eb3b0a71/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.2.0] /Users/aditya/.android/build-cache/065f65a2c4a76acc1734037c01a5e080ef25d43b/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.2.0] /Users/aditya/.android/build-cache/78419e5cda735238f9f017b94c91c6e565995bb9/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.2.0] /Users/aditya/.android/build-cache/c96727f85a1de9fa50900c1c377681a0dcfdb7bf/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.2.0] /Users/aditya/.android/build-cache/48b6cddd4fc954073a48078ea6fedc823bf9ee26/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.2.0] /Users/aditya/.android/build-cache/109e8a7852d5d11e8a1c3b37810b693c002ed533/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.2.0] /Users/aditya/.android/build-cache/1bbd020a1fa6cb1a7e39b876df64f6050a8dd41a/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.2.0] /Users/aditya/.android/build-cache/ba75dc6a0a8e422ccd30bda9670f257a17b738bb/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:design:25.2.0] /Users/aditya/.android/build-cache/f65cbe4320c4e0df26f7ea9247f6cbb28737abf3/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/aditya/.android/build-cache/54971105b365ac01d55c3145072bf45452f732eb/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/aditya/.android/build-cache/b65f2eede40f7872d81e451fbf0fbd950c22d4e9/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/aditya/.android/build-cache/3f037b067a2e150788be10bc25437c42bb501c3c/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] /Users/aditya/.android/build-cache/b7a6de66377319e8e5f96717bfacd290a6a8a151/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.2.0] /Users/aditya/.android/build-cache/9d3ca71b7e6a3c8f5926b3358d963e94cf7a3410/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.2.0] /Users/aditya/.android/build-cache/a41f10b704d5e9d7e1ece3a6234817c5fc6f151d/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/aditya/.android/build-cache/4d3fcd526ee3786a6517686c553a642cf0626e23/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/aditya/.android/build-cache/b4b424e75dd7aab4d7d08e2398b037fad64b8056/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/aditya/.android/build-cache/1001d1085e80c624d26a56ff667acbcc11a07f36/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/aditya/.android/build-cache/9703bde45ef3a9ad46509853d8dcc71ac7e3be2f/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] /Users/aditya/.android/build-cache/3e960e908d348514afcd3b125ea6c6356baedc62/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.2.0] /Users/aditya/.android/build-cache/cb838bfc8fe07da3d3264cd258c273d6bdb4ad02/output/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.2.0] /Users/aditya/.android/build-cache/f65cbe4320c4e0df26f7ea9247f6cbb28737abf3/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /Users/aditya/AndroidStudioProjects/CurrencyConverter/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/aditya/AndroidStudioProjects/CurrencyConverter/app/src/main/AndroidManifest.xml

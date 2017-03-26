@@ -36,35 +36,80 @@ public class Main2Activity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
                 Toast.makeText(getBaseContext(), parent.getItemIdAtPosition(position)+" selected", Toast.LENGTH_LONG).show();
-                if (spinnerFrom.getSelectedItemPosition() == 0 && spinnerTo.getSelectedItemPosition() == 1){
                     convert.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
-                            EditText editText_currency = (EditText)findViewById(R.id.editText_currency);
-                            TextView textViewMulti = (TextView) findViewById(R.id.textViewMulti);
-                            Double dollarAmount = Double.valueOf(editText_currency.getText().toString());
-                            Double convertedAmount1 = dollarAmount * 65.38;
-                            String amount = Double.toString(convertedAmount1);
-                            textViewMulti.setText(amount);
-                            Toast.makeText(getBaseContext(), "You converted to INR", Toast.LENGTH_LONG).show();
+                            if (spinnerFrom.getSelectedItem().toString().equals("USD") && spinnerTo.getSelectedItem().toString().equals("INR")) {
+                                EditText editText_currency = (EditText) findViewById(R.id.editText_currency);
+                                TextView textViewMulti = (TextView) findViewById(R.id.textViewMulti);
+                                Double dollarAmount = Double.valueOf(editText_currency.getText().toString());
+                                Double convertedAmount1 = dollarAmount * 65.37;
+                                String amount = Double.toString(convertedAmount1);
+                                textViewMulti.setText(amount + " INR");
+                                Toast.makeText(getBaseContext(), "You converted USD to INR", Toast.LENGTH_LONG).show();
+                            }
+
+                            else if (spinnerFrom.getSelectedItem().toString().equals("USD") && spinnerTo.getSelectedItem().toString().equals("GBP")) {
+                                EditText editText_currency = (EditText)findViewById(R.id.editText_currency);
+                                TextView textViewMulti = (TextView) findViewById(R.id.textViewMulti);
+                                Double dollarAmount = Double.valueOf(editText_currency.getText().toString());
+                                Double convertedAmount2 = dollarAmount * 0.80;
+                                String amount1 = Double.toString(convertedAmount2);
+                                textViewMulti.setText(amount1 + " GBP");
+                                Toast.makeText(getBaseContext(), "You converted USD to GBP", Toast.LENGTH_LONG).show();
+                            }
+
+                            else if (spinnerFrom.getSelectedItem().toString().equals("GBP") && spinnerTo.getSelectedItem().toString().equals("USD")){
+                                EditText editText_currency = (EditText)findViewById(R.id.editText_currency);
+                                TextView textViewMulti = (TextView) findViewById(R.id.textViewMulti);
+                                Double dollarAmount = Double.valueOf(editText_currency.getText().toString());
+                                Double convertedAmount4 = dollarAmount * 1.25;
+                                String amount3 = Double.toString(convertedAmount4);
+                                textViewMulti.setText(amount3 + " USD");
+                                Toast.makeText(getBaseContext(), "You converted GBP to USD", Toast.LENGTH_LONG).show();
+
+                            }
+
+                            else if (spinnerFrom.getSelectedItem().toString().equals("GBP") && spinnerTo.getSelectedItem().toString().equals("INR")){
+                                EditText editText_currency = (EditText)findViewById(R.id.editText_currency);
+                                TextView textViewMulti = (TextView) findViewById(R.id.textViewMulti);
+                                Double dollarAmount = Double.valueOf(editText_currency.getText().toString());
+                                Double convertedAmount4 = dollarAmount * 81.53;
+                                String amount3 = Double.toString(convertedAmount4);
+                                textViewMulti.setText(amount3 + " INR");
+                                Toast.makeText(getBaseContext(), "You converted to INR", Toast.LENGTH_LONG).show();
+                            }
+
+                            else if (spinnerFrom.getSelectedItem().toString().equals("INR") && spinnerTo.getSelectedItem().toString().equals("USD")) {
+                                EditText editText_currency = (EditText)findViewById(R.id.editText_currency);
+                                TextView textViewMulti = (TextView) findViewById(R.id.textViewMulti);
+                                Double dollarAmount = Double.valueOf(editText_currency.getText().toString());
+                                Double convertedAmount4 = dollarAmount * 0.015;
+                                String amount3 = Double.toString(convertedAmount4);
+                                textViewMulti.setText(amount3 + " USD");
+                                Toast.makeText(getBaseContext(), "You converted INR to USD", Toast.LENGTH_LONG).show();
+                            }
+
+                            else if (spinnerFrom.getSelectedItem().toString().equals("INR") && spinnerTo.getSelectedItem().toString().equals("GBP")) {
+                                EditText editText_currency = (EditText)findViewById(R.id.editText_currency);
+                                TextView textViewMulti = (TextView) findViewById(R.id.textViewMulti);
+                                Double dollarAmount = Double.valueOf(editText_currency.getText().toString());
+                                Double convertedAmount4 = dollarAmount * 0.012;
+                                String amount3 = Double.toString(convertedAmount4);
+                                textViewMulti.setText(amount3 + " GBP");
+                                Toast.makeText(getBaseContext(), "You converted INR to GBP", Toast.LENGTH_LONG).show();
+                            }
+
+                            //if trying to convert to same country display a message
+                            else if (spinnerFrom.getSelectedItemPosition() == spinnerTo.getSelectedItemPosition()){
+                                EditText editText_currency = (EditText)findViewById(R.id.editText_currency);
+                                TextView textViewMulti = (TextView) findViewById(R.id.textViewMulti);
+                                Double dollarAmount = Double.valueOf(editText_currency.getText().toString());
+                                textViewMulti.setText("Error: Same Currency Choose Different");
+                                Toast.makeText(getBaseContext(), "Same Currency Choose Different", Toast.LENGTH_LONG).show();
+                            }
                         }
                     });
-                }
-
-//                else if (spinnerFrom.getSelectedItemPosition() == 0 && spinnerTo.getSelectedItemPosition() == 2){
-//                    Toast.makeText(getBaseContext(), "You converted to GBP", Toast.LENGTH_LONG).show();
-//                    convert.setOnClickListener(new View.OnClickListener() {
-//                        @Override
-//                        public void onClick(View v) {
-//                            EditText editText_currency = (EditText)findViewById(R.id.editText_currency);
-//                            TextView textViewMulti = (TextView) findViewById(R.id.textViewMulti);
-//                            Double dollarAmount = Double.valueOf(editText_currency.getText().toString());
-//                            Double convertedAmount2 = dollarAmount * 0.80;
-//                            String amount1 = Double.toString(convertedAmount2);
-//                            textViewMulti.setText(amount1 + " GBP");
-//                        }
-//                    });
-//                }
 
             }
 
