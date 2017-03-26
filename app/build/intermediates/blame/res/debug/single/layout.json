@@ -4,12 +4,12 @@
         "source": "/Users/aditya/.android/build-cache/384fb584d820a35f0a45ae510625ebe99617ecd6/output/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/res/merged/debug/layout/notification_template_custom_big.xml",
-        "source": "/Users/aditya/.android/build-cache/384fb584d820a35f0a45ae510625ebe99617ecd6/output/res/layout/notification_template_custom_big.xml"
-    },
-    {
         "merged": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
         "source": "/Users/aditya/.android/build-cache/384fb584d820a35f0a45ae510625ebe99617ecd6/output/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/res/merged/debug/layout/notification_template_custom_big.xml",
+        "source": "/Users/aditya/.android/build-cache/384fb584d820a35f0a45ae510625ebe99617ecd6/output/res/layout/notification_template_custom_big.xml"
     },
     {
         "merged": "/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/res/merged/debug/layout/activity_main.xml",

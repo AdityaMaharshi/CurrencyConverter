@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         else {
             Double dollarAmount = Double.parseDouble(dollarField.getText().toString());
-            Double convertedAmount = dollarAmount * 68.5;
+            Double convertedAmount = dollarAmount * 65.38;
             TextView textView = (TextView) findViewById(R.id.textView3);
             String amount = Double.toString(convertedAmount);
             textView.setText(amount + " INR");

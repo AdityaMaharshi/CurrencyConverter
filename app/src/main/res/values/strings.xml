@@ -4,8 +4,15 @@
     <string name="NewActivity">Real Converter</string>
     <string name="BackButton">BACK</string>
     <string name="USD">USD</string>
-    <string name="Amount">0 INR</string>
+    <string name="Amount">0</string>
     <string name="Shortcut1">Basic Converter</string>
     <string name="Shortcut2">Multi Currency Converter</string>
     <string name="EnterAmount">Enter Amount</string>
+    <string-array name="Country">
+        <item>USD</item>
+        <item>INR</item>
+        <item>GBP</item>
+    </string-array>
+
 </resources>
+
