@@ -81,7 +81,6 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:elevation="0dp"
-        android:onClick="convertMulti"
         android:text="@string/converter"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintLeft_toLeftOf="parent"
