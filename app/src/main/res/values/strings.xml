@@ -7,4 +7,5 @@
     <string name="Amount">0 INR</string>
     <string name="Shortcut1">Basic Converter</string>
     <string name="Shortcut2">Multi Currency Converter</string>
+    <string name="EnterAmount">Enter Amount</string>
 </resources>
