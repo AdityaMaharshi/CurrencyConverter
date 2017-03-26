@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/aditya/.android/build-cache/cb838bfc8fe07da3d3264cd258c273d6bdb4ad02/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_73e60147d8adc4f2fda10b6ed0598955ef58f829/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/aditya/.android/build-cache/4938456414f6eebb0bdd8d9aa96786d08505c2b7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7113302c965566b66df46c6ca75ea301576114a5">
+        <dex dex="/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6c5e593e559e36939f96e1a68ad47e2e8fc5ab96/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2d4d091506bb7b230d355fbd6abe6b44fbed86c">
+        <dex dex="/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5ae8076a1a5d0ce506a0f27b2e4c1ef563e9083d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/aditya/.android/build-cache/be02e5562d53e40cfa200e147d9cdac4eb3b0a71/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fcf970033afb8b87e4bc37e3f946055b5e6bcce8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/aditya/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.1/constraint-layout-solver-1.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ad79631209e77b0a2730fc112b4cc0c66a95132">
+        <dex dex="/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.1_f909d1c48199e41276ab690cf6db4ca46e860c12/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_12ec62e360047ff29f73b758b4d9a1644254bbb8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/aditya/.android/build-cache/065f65a2c4a76acc1734037c01a5e080ef25d43b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ee678c5ca6815f97fe6fee69e6fc6f4102217d53/classes.dex" />
+    </item>
+
+</items>

@@ -68,8 +68,6 @@ public class Main2Activity extends AppCompatActivity {
 
             }
 
-
-
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
                 Toast.makeText(getBaseContext(),"Please Choose the currency", Toast.LENGTH_LONG).show();
