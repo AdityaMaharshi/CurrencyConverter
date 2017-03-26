@@ -3114,9 +3114,9 @@ containing a value of this type.
         public static final int notify_panel_notification_icon_bg=0x7f02006a;
     }
     public static final class id {
-        public static final int Conversion=0x7f0f0084;
-        public static final int ConvertFrom=0x7f0f0081;
-        public static final int ConvertTo=0x7f0f0083;
+        public static final int Conversion=0x7f0f0082;
+        public static final int ConvertFrom=0x7f0f0083;
+        public static final int ConvertTo=0x7f0f0084;
         public static final int action0=0x7f0f0095;
         public static final int action_bar=0x7f0f006b;
         public static final int action_bar_activity_content=0x7f0f0000;
@@ -3171,7 +3171,7 @@ containing a value of this type.
         public static final int design_navigation_view=0x7f0f008d;
         public static final int disableHome=0x7f0f001b;
         public static final int editText=0x7f0f007c;
-        public static final int editText2=0x7f0f0082;
+        public static final int editText2=0x7f0f0085;
         public static final int editText_currency=0x7f0f0080;
         public static final int edit_query=0x7f0f006d;
         public static final int end=0x7f0f0032;
@@ -3265,7 +3265,7 @@ containing a value of this type.
         public static final int textSpacerNoTitle=0x7f0f0058;
         public static final int textView2=0x7f0f007d;
         public static final int textView3=0x7f0f007e;
-        public static final int textViewMulti=0x7f0f0085;
+        public static final int textViewMulti=0x7f0f0081;
         public static final int text_input_password_toggle=0x7f0f0091;
         public static final int textinput_counter=0x7f0f0009;
         public static final int textinput_error=0x7f0f000a;
