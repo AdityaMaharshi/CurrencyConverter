@@ -1898,6 +1898,8 @@
         <item>USD</item>
         <item>INR</item>
         <item>GBP</item>
+        <item>EUR</item>
+        <item>CNY</item>
     </string-array><string name="BackButton">BACK</string><string name="Shortcut1">Basic Converter</string><string name="Shortcut2">Multi Currency Converter</string></file><file path="/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/src/main/res/values/styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         
         <item name="colorPrimary">@color/colorPrimary</item>

@@ -77,7 +77,7 @@ public class Main2Activity extends AppCompatActivity {
                                 Double convertedAmount4 = dollarAmount * 81.53;
                                 String amount3 = Double.toString(convertedAmount4);
                                 textViewMulti.setText(amount3 + " INR");
-                                Toast.makeText(getBaseContext(), "You converted to INR", Toast.LENGTH_LONG).show();
+                                Toast.makeText(getBaseContext(), "You converted GBP to INR", Toast.LENGTH_LONG).show();
                             }
 
                             else if (spinnerFrom.getSelectedItem().toString().equals("INR") && spinnerTo.getSelectedItem().toString().equals("USD")) {
@@ -100,6 +100,117 @@ public class Main2Activity extends AppCompatActivity {
                                 Toast.makeText(getBaseContext(), "You converted INR to GBP", Toast.LENGTH_LONG).show();
                             }
 
+                            else if (spinnerFrom.getSelectedItem().toString().equals("USD") && spinnerTo.getSelectedItem().toString().equals("EUR")) {
+                                EditText editText_currency = (EditText)findViewById(R.id.editText_currency);
+                                TextView textViewMulti = (TextView) findViewById(R.id.textViewMulti);
+                                Double dollarAmount = Double.valueOf(editText_currency.getText().toString());
+                                Double convertedAmount4 = dollarAmount * 0.91;
+                                String amount3 = Double.toString(convertedAmount4);
+                                textViewMulti.setText(amount3 + " EUR");
+                                Toast.makeText(getBaseContext(), "You converted USD to EUR", Toast.LENGTH_LONG).show();
+                            }
+                            else if (spinnerFrom.getSelectedItem().toString().equals("EUR") && spinnerTo.getSelectedItem().toString().equals("USD")) {
+                                EditText editText_currency = (EditText)findViewById(R.id.editText_currency);
+                                TextView textViewMulti = (TextView) findViewById(R.id.textViewMulti);
+                                Double dollarAmount = Double.valueOf(editText_currency.getText().toString());
+                                Double convertedAmount4 = dollarAmount * 1.08;
+                                String amount3 = Double.toString(convertedAmount4);
+                                textViewMulti.setText(amount3 + " USD");
+                                Toast.makeText(getBaseContext(), "You converted EUR to USD", Toast.LENGTH_LONG).show();
+                            }
+                            else if (spinnerFrom.getSelectedItem().toString().equals("INR") && spinnerTo.getSelectedItem().toString().equals("EUR")) {
+                                EditText editText_currency = (EditText)findViewById(R.id.editText_currency);
+                                TextView textViewMulti = (TextView) findViewById(R.id.textViewMulti);
+                                Double dollarAmount = Double.valueOf(editText_currency.getText().toString());
+                                Double convertedAmount4 = dollarAmount * 0.014;
+                                String amount3 = Double.toString(convertedAmount4);
+                                textViewMulti.setText(amount3 + " EUR");
+                                Toast.makeText(getBaseContext(), "You converted INR to EUR", Toast.LENGTH_LONG).show();
+                            }
+                            else if (spinnerFrom.getSelectedItem().toString().equals("EUR") && spinnerTo.getSelectedItem().toString().equals("INR")) {
+                                EditText editText_currency = (EditText)findViewById(R.id.editText_currency);
+                                TextView textViewMulti = (TextView) findViewById(R.id.textViewMulti);
+                                Double dollarAmount = Double.valueOf(editText_currency.getText().toString());
+                                Double convertedAmount4 = dollarAmount * 70.70;
+                                String amount3 = Double.toString(convertedAmount4);
+                                textViewMulti.setText(amount3 + " INR");
+                                Toast.makeText(getBaseContext(), "You converted EUR to INR", Toast.LENGTH_LONG).show();
+                            }
+
+                            else if (spinnerFrom.getSelectedItem().toString().equals("USD") && spinnerTo.getSelectedItem().toString().equals("CNY")) {
+                                EditText editText_currency = (EditText)findViewById(R.id.editText_currency);
+                                TextView textViewMulti = (TextView) findViewById(R.id.textViewMulti);
+                                Double dollarAmount = Double.valueOf(editText_currency.getText().toString());
+                                Double convertedAmount4 = dollarAmount * 6.87;
+                                String amount3 = Double.toString(convertedAmount4);
+                                textViewMulti.setText(amount3 + " CNY");
+                                Toast.makeText(getBaseContext(), "You converted USD to CNY", Toast.LENGTH_LONG).show();
+                            }
+                            else if (spinnerFrom.getSelectedItem().toString().equals("GBP") && spinnerTo.getSelectedItem().toString().equals("EUR")) {
+                                EditText editText_currency = (EditText)findViewById(R.id.editText_currency);
+                                TextView textViewMulti = (TextView) findViewById(R.id.textViewMulti);
+                                Double dollarAmount = Double.valueOf(editText_currency.getText().toString());
+                                Double convertedAmount4 = dollarAmount * 1.15;
+                                String amount3 = Double.toString(convertedAmount4);
+                                textViewMulti.setText(amount3 + " EUR");
+                                Toast.makeText(getBaseContext(), "You converted GBP to EUR", Toast.LENGTH_LONG).show();
+                            }
+                            else if (spinnerFrom.getSelectedItem().toString().equals("EUR") && spinnerTo.getSelectedItem().toString().equals("GBP")) {
+                                EditText editText_currency = (EditText)findViewById(R.id.editText_currency);
+                                TextView textViewMulti = (TextView) findViewById(R.id.textViewMulti);
+                                Double dollarAmount = Double.valueOf(editText_currency.getText().toString());
+                                Double convertedAmount4 = dollarAmount * 0.86;
+                                String amount3 = Double.toString(convertedAmount4);
+                                textViewMulti.setText(amount3 + " GBP");
+                                Toast.makeText(getBaseContext(), "You converted EUR to GBP", Toast.LENGTH_LONG).show();
+                            }
+                            else if (spinnerFrom.getSelectedItem().toString().equals("GBP") && spinnerTo.getSelectedItem().toString().equals("CNY")) {
+                                EditText editText_currency = (EditText)findViewById(R.id.editText_currency);
+                                TextView textViewMulti = (TextView) findViewById(R.id.textViewMulti);
+                                Double dollarAmount = Double.valueOf(editText_currency.getText().toString());
+                                Double convertedAmount4 = dollarAmount * 0.10;
+                                String amount3 = Double.toString(convertedAmount4);
+                                textViewMulti.setText(amount3 + " CNY");
+                                Toast.makeText(getBaseContext(), "You converted GBP to CNY", Toast.LENGTH_LONG).show();
+                            }
+                            else if (spinnerFrom.getSelectedItem().toString().equals("INR") && spinnerTo.getSelectedItem().toString().equals("CNY")) {
+                                EditText editText_currency = (EditText)findViewById(R.id.editText_currency);
+                                TextView textViewMulti = (TextView) findViewById(R.id.textViewMulti);
+                                Double dollarAmount = Double.valueOf(editText_currency.getText().toString());
+                                Double convertedAmount4 = dollarAmount * 0.10;
+                                String amount3 = Double.toString(convertedAmount4);
+                                textViewMulti.setText(amount3 + " CNY");
+                                Toast.makeText(getBaseContext(), "You converted INR to CNY", Toast.LENGTH_LONG).show();
+                            }
+                            else if (spinnerFrom.getSelectedItem().toString().equals("CNY") && spinnerTo.getSelectedItem().toString().equals("INR")) {
+                                EditText editText_currency = (EditText)findViewById(R.id.editText_currency);
+                                TextView textViewMulti = (TextView) findViewById(R.id.textViewMulti);
+                                Double dollarAmount = Double.valueOf(editText_currency.getText().toString());
+                                Double convertedAmount4 = dollarAmount * 9.46;
+                                String amount3 = Double.toString(convertedAmount4);
+                                textViewMulti.setText(amount3 + " INR");
+                                Toast.makeText(getBaseContext(), "You converted CNY to INR", Toast.LENGTH_LONG).show();
+                            }
+                            else if (spinnerFrom.getSelectedItem().toString().equals("CNY") && spinnerTo.getSelectedItem().toString().equals("GBP")) {
+                                EditText editText_currency = (EditText)findViewById(R.id.editText_currency);
+                                TextView textViewMulti = (TextView) findViewById(R.id.textViewMulti);
+                                Double dollarAmount = Double.valueOf(editText_currency.getText().toString());
+                                Double convertedAmount4 = dollarAmount * 0.11;
+                                String amount3 = Double.toString(convertedAmount4);
+                                textViewMulti.setText(amount3 + " GBP");
+                                Toast.makeText(getBaseContext(), "You converted CNY to GBP", Toast.LENGTH_LONG).show();
+                            }
+                            else if (spinnerFrom.getSelectedItem().toString().equals("CNY") && spinnerTo.getSelectedItem().toString().equals("USD")) {
+                                EditText editText_currency = (EditText)findViewById(R.id.editText_currency);
+                                TextView textViewMulti = (TextView) findViewById(R.id.textViewMulti);
+                                Double dollarAmount = Double.valueOf(editText_currency.getText().toString());
+                                Double convertedAmount4 = dollarAmount * 0.14;
+                                String amount3 = Double.toString(convertedAmount4);
+                                textViewMulti.setText(amount3 + " USD");
+                                Toast.makeText(getBaseContext(), "You converted CNY to USD", Toast.LENGTH_LONG).show();
+                            }
+
+
                             //if trying to convert to same country display a message
                             else if (spinnerFrom.getSelectedItemPosition() == spinnerTo.getSelectedItemPosition()){
                                 EditText editText_currency = (EditText)findViewById(R.id.editText_currency);
@@ -108,6 +219,7 @@ public class Main2Activity extends AppCompatActivity {
                                 textViewMulti.setText("Error: Same Currency Choose Different");
                                 Toast.makeText(getBaseContext(), "Same Currency Choose Different", Toast.LENGTH_LONG).show();
                             }
+
                         }
                     });
 
@@ -167,5 +279,6 @@ public class Main2Activity extends AppCompatActivity {
         Toast.makeText(Main2Activity.this, "This is Basic Currency Converter",Toast.LENGTH_SHORT).show();
         finish();
     }
+
 
 }

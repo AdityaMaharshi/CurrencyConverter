@@ -4,6 +4,8 @@
         <item>USD</item>
         <item>INR</item>
         <item>GBP</item>
+        <item>EUR</item>
+        <item>CNY</item>
     </string-array>
     <attr format="reference" name="constraintSet"/>
     <attr format="reference" name="drawerArrowStyle"/>
