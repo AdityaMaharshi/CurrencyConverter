@@ -2,6 +2,7 @@ package com.example.aditya.currencyconverter;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -12,7 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class Main2Activity extends AppCompatActivity {
-
+    public static String AD ="Main2Activity";
     Button convert;
     Spinner spinnerFrom;
     Spinner spinnerTo;
@@ -234,31 +235,39 @@ public class Main2Activity extends AppCompatActivity {
     public void returnToBasic(View view) {
         Toast.makeText(Main2Activity.this, "This is Basic Currency Converter",Toast.LENGTH_SHORT).show();
         finish();
+        overridePendingTransition(R.xml.transitions,0); // Added Transition
     }
 
     @Override
     protected void onStart() {
         super.onStart();
+        Log.w(AD, "OnStart");
+
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
+        Log.w(AD, "OnRestart");
+
     }
 
     @Override
     protected void onResume() {
         super.onResume();
+        Log.w(AD, "OnResume");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
+        Log.w(AD, "OnPause");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        Log.w(AD, "OnDestroy");
     }
 
 }
