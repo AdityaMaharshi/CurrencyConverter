@@ -213,9 +213,7 @@ public class Main2Activity extends AppCompatActivity {
 
                             //if trying to convert to same country display a message
                             else if (spinnerFrom.getSelectedItemPosition() == spinnerTo.getSelectedItemPosition()){
-                                EditText editText_currency = (EditText)findViewById(R.id.editText_currency);
                                 TextView textViewMulti = (TextView) findViewById(R.id.textViewMulti);
-                                Double dollarAmount = Double.valueOf(editText_currency.getText().toString());
                                 textViewMulti.setText("Error: Same Currency Choose Different");
                                 Toast.makeText(getBaseContext(), "Same Currency Choose Different", Toast.LENGTH_LONG).show();
                             }
@@ -233,52 +231,34 @@ public class Main2Activity extends AppCompatActivity {
 
     }
 
-//    public void convertMulti(View view) {
-//
-//        EditText editText_currency = (EditText)findViewById(R.id.editText2);
-//        String s= editText_currency.getText().toString();
-//
-//        if (s.matches("")) {
-//            Toast.makeText(this, "Please Enter a Value!!", Toast.LENGTH_SHORT).show();
-//            return;
-//        }
-//
-//        Double dollarAmount = Double.valueOf(editText_currency.getText().toString());
-//        TextView textViewMulti = (TextView) findViewById(R.id.textViewMulti);
-//        //Double currency_from_value = Double.valueOf(editText_currency.getText().toString());
-//        String from_currency = String.valueOf(spinnerFrom.getSelectedItem());
-//        String to_currency = String.valueOf(spinnerTo.getSelectedItem());
-//        if (from_currency == "USD" && to_currency == "INR") {
-//            Double convertedAmount1 = dollarAmount * 65.38;
-//            String amount = Double.toString(convertedAmount1);
-//            textViewMulti.setText(amount + " INR");
-//        }
-//
-//        else if (from_currency == "USD" && to_currency == "GBP") {
-//            Double convertedAmount2 = dollarAmount * 0.80;
-//            String amount1 = Double.toString(convertedAmount2);
-//            textViewMulti.setText(amount1 + " GBP");
-//        }
-//
-//        else if (from_currency == "GBP" && to_currency == "INR") {
-//            Double convertedAmount3 = dollarAmount * 81.53;
-//            String amount2 = Double.toString(convertedAmount3);
-//            textViewMulti.setText(amount2 + " INR");
-//        }
-//
-//        else if (from_currency == "GBP" && to_currency == "USD") {
-//            Double convertedAmount4 = dollarAmount * 1.25;
-//            String amount3 = Double.toString(convertedAmount4);
-//            textViewMulti.setText(amount3 + " USD");
-//        }
-//
-//
-//    }
-
     public void returnToBasic(View view) {
         Toast.makeText(Main2Activity.this, "This is Basic Currency Converter",Toast.LENGTH_SHORT).show();
         finish();
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
 
 }
