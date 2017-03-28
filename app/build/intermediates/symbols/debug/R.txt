@@ -2019,3 +2019,4 @@ int styleable ViewStubCompat_android_id 0
 int styleable ViewStubCompat_android_inflatedId 2
 int styleable ViewStubCompat_android_layout 1
 int xml shortcuts 0x7f070000
+int xml transitions 0x7f070001

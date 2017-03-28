@@ -1,7 +1,7 @@
-#Mon Mar 27 12:59:50 CDT 2017
-base.0=/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_12ec62e360047ff29f73b758b4d9a1644254bbb8
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5ae8076a1a5d0ce506a0f27b2e4c1ef563e9083d/classes.dex
-base.1=/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5ae8076a1a5d0ce506a0f27b2e4c1ef563e9083d
-file.0=/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_12ec62e360047ff29f73b758b4d9a1644254bbb8/classes.dex
+#Tue Mar 28 17:45:10 CDT 2017
+base.0=/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5ae8076a1a5d0ce506a0f27b2e4c1ef563e9083d
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_12ec62e360047ff29f73b758b4d9a1644254bbb8/classes.dex
+base.1=/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_12ec62e360047ff29f73b758b4d9a1644254bbb8
+file.0=/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5ae8076a1a5d0ce506a0f27b2e4c1ef563e9083d/classes.dex

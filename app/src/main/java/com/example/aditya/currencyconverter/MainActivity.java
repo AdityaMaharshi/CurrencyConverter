@@ -44,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(MainActivity.this, "This is Multi Currency Converter",Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this, Main2Activity.class);
         startActivity(intent);
+        overridePendingTransition(R.xml.transitions,0);
+
     }
     protected void onStart() {
         super.onStart();
