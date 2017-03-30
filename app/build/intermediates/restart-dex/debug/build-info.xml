@@ -6,26 +6,30 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1490743982344"
+    timestamp="1490853808928"
     token="-1191474570056813243"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="194" />
+        duration="203" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="29" />
     <task
         name="verifier"
-        duration="0" />
+        duration="4" />
+
+    <artifact
+        location="/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1490740093644"
+        timestamp="1490852171000"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
@@ -66,23 +70,11 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1490742357071"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1490743967255"
+        timestamp="1490853808928"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/aditya/AndroidStudioProjects/CurrencyConverter/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
     </build>
-    <build
-        build-mode="COLD"
-        timestamp="1490743982344"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

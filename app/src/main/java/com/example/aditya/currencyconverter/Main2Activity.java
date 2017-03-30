@@ -1,5 +1,8 @@
 package com.example.aditya.currencyconverter;
 
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -35,6 +38,7 @@ public class Main2Activity extends AppCompatActivity {
         spinnerFrom.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                SavePreferences(spinnerFrom.getSelectedItem().toString(),spinnerFrom.getSelectedItem().toString());
 
                 Toast.makeText(getBaseContext(), parent.getItemIdAtPosition(position)+" selected", Toast.LENGTH_LONG).show();
                     convert.setOnClickListener(new View.OnClickListener() {
@@ -221,7 +225,20 @@ public class Main2Activity extends AppCompatActivity {
 
                         }
                     });
-
+                SharedPreferences test = getSharedPreferences(spinnerFrom.getSelectedItem().toString(), Context.MODE_PRIVATE);
+                int spinnerValue = test.getInt(spinnerFrom.getSelectedItem().toString(),-1);
+                if(spinnerValue != -1)
+                    // set the value of the spinner
+                    spinnerFrom.setSelection(spinnerValue);
+            }
+            public void SavePreferences(String key, String value) {
+                /*
+                *   Shared Preferences
+                */
+                SharedPreferences data = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+                SharedPreferences.Editor editor = data.edit();
+                editor.putString(key, value);
+                editor.commit();
             }
 
             @Override
@@ -268,6 +285,7 @@ public class Main2Activity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         Log.w(AD, "OnDestroy");
+
     }
 
 }
