@@ -1,4 +1,4 @@
-# Welcome to the CurrencyConverter!
+# Welcome to the CurrencyConverter App!
 ## Basic Android App
 The App involves 2 activities 
 * First Activity has Simple USD to INR conversion
